@@ -1,9 +1,9 @@
 # Mandatory settings
 
-name: Chalk
-paginate: 25
+name: An Accumulation of Errors
+paginate: 2
 url: # add your site url (format: http://example.com/)
-blog_theme: light # Or use dark
+blog_theme: dark # Or use light
 
 # Optional settings
 
@@ -16,10 +16,10 @@ social:
   dribbble: # Add your Dribbble handle
   facebook: # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: # Add your GitHub handle
+  github: WendyBeth # Add your GitHub handle
   linkedin: # Add your LinkedIn handle
   twitter: # Add your Twitter handle
-  email: # Add your Email address
+  email: wendybeth010@gmail.com # Add your Email address
   bitcoin: # Add your Bitcoin link or address
 
 # Important settings (change at own risk)
