@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Exploring Rails 5.1 with Webpacker"
-tags: [rails, edge-rails, webpacker]
+tags: [Rails, Edge Rails, Webpacker]
 ---
 
 I just had a heck of a time trying to figure out how to setup [Rails 5.1 with
