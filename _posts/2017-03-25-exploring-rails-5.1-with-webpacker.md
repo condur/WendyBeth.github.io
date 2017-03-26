@@ -97,7 +97,7 @@ import shelves from './shelves';
 
 document.addEventListener('DOMContentLoaded', () => {
   shelves.initialize();
-):'
+});
 ```
 
 **app/javascript/shelves/shelves.js**
