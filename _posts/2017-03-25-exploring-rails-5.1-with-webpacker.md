@@ -20,7 +20,7 @@ worth reading.
 So I just went in, `rails new`ed me a new Rails 5.0.2 application, and updated the
 Gemfile:
 
-```
+```ruby
 gem 'rails', github: 'rails/rails'
 ```
 
@@ -52,33 +52,46 @@ With this simple setup, you can go ahead and see how the structure works. As
 mentioned in the [Webpacker documentation](https://github.com/rails/webpacker),
 you can set up a component using the following structure:
 
+```
+app
+└── javascript
+   └── packs
+   |   └── calendar.js
+   └── calendar
+       └── index.js
+       └── components
+       |   └── grid.jsx
+       └── styles
+       |   └── grid.sass
+       └── models
+           └── month.js
+```
+
+**app/javascript/packs/calendar.js**
+
 ```javascript
-// app/javascript/packs/calendar.js
-require('calendar')
+require('calendar') // loads app/javascript/calendar/index.js
 ```
 
-```
-app/javascript/calendar/index.js // gets loaded by require('calendar')
-app/javascript/calendar/components/grid.jsx
-app/javascript/calendar/styles/grid.sass
-app/javascript/calendar/models/month.js
-```
+**app/views/layouts/application.html.erb**
 
-```html
-// app/views/layout/application.html.erb
+```erb
 <%= javascript_pack_tag 'calendar' %>
-<%= stylehseet_pack_tag 'calendar'' %>
+<%= stylehseet_pack_tag 'calendar' %>
 ```
 
-I found this structure easy enough to replicate. Here's what I have:
+I found this structure easy enough to replicate. My LittleLibrary application
+has a lot of shelves, so here's what I have:
+
+**app/javascript/packs/shelves.js**
 
 ```javascript
-// app/javascript/packs/shelves.js
 require ('shelves')
 ```
 
+**app/javascript/shelves/index.js**
+
 ```javascript
-// app/javascript/shelves/index.js
 import './stylesheets/shelves.sass';
 import shelves from './shelves';
 
@@ -87,8 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
 ):'
 ```
 
+**app/javascript/shelves/shelves.js**
+
 ```javascript
-// app/javascript/shelves/shelves.js
 const shelves = {
   initialize() {
     console.log("code to run on initialization")
@@ -98,16 +112,18 @@ const shelves = {
 export default shelves;
 ```
 
+**app/javascript/shelves/stylesheets/shelves.sass**
+
 ```sass
-// app/javascript/shelves/stylesheets/shelves.sass
 h1
   color: red
 ```
 
 Then I have a `ShelvesController` with an `index` page.
 
-```html
--# app/views/shelves/index.html.erb
+**app/views/shelves/index.html.erb**
+
+```erb
 <h1>Hello, World!</h1>
 
 <%= javascript_pack_tag 'shelves' %>

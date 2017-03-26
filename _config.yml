@@ -1,6 +1,6 @@
 # Mandatory settings
 
-name: A Collection of Accumulated Errors
+name: An Accumulation of Errors
 paginate: 2
 url: # add your site url (format: http://example.com/)
 blog_theme: dark # Or use light
