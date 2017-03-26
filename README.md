@@ -51,7 +51,7 @@ If you haven't installed the following tools then go ahead and do so (make sure 
 
 On windows, install Ruby and Node with the installers found here:
 
-  - [Ruby](https://rubyinstaller.org/)  
+  - [Ruby](https://rubyinstaller.org/)
   - [Node.js](https://nodejs.org/en/download/)
 
 Next setup your environment:
