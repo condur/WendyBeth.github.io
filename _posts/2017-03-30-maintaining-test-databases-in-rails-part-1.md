@@ -25,7 +25,7 @@ This post is the first in a series that explores test database management in
 Rails. It provides a brief overview of the three database-cleaning strategies
 that can be used by DatabaseCleaner (with ActiveRecord, specifically) and an
 explanation for when and why we would ever need to look beyond the fastest,
-most convenient database-cleaing strategy, `:transaction`.
+most convenient database-cleaning strategy, `:transaction`.
 
 ### Section 1: DatabaseCleaner cleaning strategies
 
