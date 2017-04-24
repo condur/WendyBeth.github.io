@@ -30,7 +30,10 @@ most convenient database-cleaning strategy, `:transaction`.
 ### Section 1: DatabaseCleaner cleaning strategies
 
 I came up with the idea to write this post when I came upon the following two
-lines of code:
+lines of code while trying to think of how to introduce testing to newer
+developers. I thought I understood what this code did, but while trying to craft
+an explanation that would make sense to someone else, I realized my knowledge
+wasn't as complete as I thought it was.
 
 ```ruby
 DatabaseCleaner.strategy = :truncation
