@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello, Void!"
-tags: [alien-abduction]
+tags: [testing]
 ---
 
 Testing the first blog post

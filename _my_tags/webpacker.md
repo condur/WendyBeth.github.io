@@ -1,4 +1,0 @@
----
-slug: webpacker
-name: Webpacker
----
