@@ -1,7 +1,7 @@
 # Mandatory settings
 
 name: Dima Condur
-paginate: 1
+paginate: 20
 url: # add your site url (format: http://example.com/)
 blog_theme: light # Or use dark
 
