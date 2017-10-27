@@ -1,7 +1,7 @@
 # Mandatory settings
 
 name: Dima Condur
-paginate: 2
+paginate: 1
 url: # add your site url (format: http://example.com/)
 blog_theme: light # Or use dark
 
@@ -11,13 +11,13 @@ about_enabled: false # Change to true if you wish to show an icon in the navigat
 discus_identifier: accumulatederrors # Add your Disqus identifier
 ga_analytics: # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
-rss_enabled: true # Change to false if not
+rss_enabled: false # Change to false if not
 social:
   dribbble: # Add your Dribbble handle
   facebook: # Add your Facebook handle
   flickr: # Add your Flickr handle
   github: condur # Add your GitHub handle
-  linkedin: # Add your LinkedIn handle
+  linkedin: ca.linkedin.com/in/condur # Add your LinkedIn handle
   twitter: # Add your Twitter handle
   email:  # Add your Email address
   bitcoin: # Add your Bitcoin link or address
