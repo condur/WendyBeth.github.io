@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Managing Accidental Complexity"
-description: "What a manager or a leader of a software development team should concentrate when trying to help the team to reach the desired goals."
+description: "What a manager or a leader of a software development team should be focused on when trying to help the team to reach the desired goals."
 tags: [management]
 ---
 
-The biggest problem in the development and maintenance of large-scale software systems is complexity — large systems are hard to understand. Complexity is the root cause of the vast majority of problems with software today. I am not going into details about where this complexity is mainly coming from and what are the options for handling it. I would like to stop in this article on what, from my opinion, a manager or a leader of a software development team should concentrate when trying to help the team to reach the desired goals.
+The biggest problem in the development and maintenance of large-scale software systems is complexity — large systems are hard to understand. Complexity is the root cause of the vast majority of problems with software today. I am not going into details about where this complexity is mainly coming from and what are the options for handling it. I would like to stop in this article on what, from my opinion, a manager or a leader of a software development team should be focused on when trying to help the team to reach the desired goals.
 
 For a better understanding of complexity let's look at [Wikipedia definition](https://en.wikipedia.org/wiki/Programming_complexity):
 
