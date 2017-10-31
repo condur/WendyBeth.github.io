@@ -1,20 +1,34 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Dima Condur</title>
+    <description></description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Testing vs Specifications</title>
+        <description>Testing as an approach to understand the system is not effective, a potential solution is to use specifications.</description>
+        <pubDate>Thu, 09 Feb 2017 00:00:00 -0500</pubDate>
+        <link>/posts/testing-vs-specifications</link>
+        <guid isPermaLink="true">/posts/testing-vs-specifications</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Managing Accidental Complexity</title>
+        <description>What a manager or a leader of a software development team should be focused on when trying to help the team to reach the desired goals.</description>
+        <pubDate>Mon, 06 Feb 2017 00:00:00 -0500</pubDate>
+        <link>/posts/managing-accidental-complexity</link>
+        <guid isPermaLink="true">/posts/managing-accidental-complexity</guid>
+      </item>
+    
+      <item>
+        <title>Algorithms: Design and Analysis, Part 1</title>
+        <description>Coursera online course offered by Stanford University.</description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 -0400</pubDate>
+        <link>/posts/algorithms-design-and-analysis-part-1</link>
+        <guid isPermaLink="true">/posts/algorithms-design-and-analysis-part-1</guid>
+      </item>
+    
   </channel>
 </rss>

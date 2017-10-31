@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/tag/algorithms/</loc>
+<lastmod>2017-10-30T21:36:28-04:00</lastmod>
+</url>
+<url>
+<loc>/tag/management/</loc>
+<lastmod>2017-10-30T21:36:28-04:00</lastmod>
+</url>
+<url>
+<loc>/tag/testing/</loc>
+<lastmod>2017-10-30T21:36:28-04:00</lastmod>
+</url>
+<url>
+<loc>/posts/algorithms-design-and-analysis-part-1</loc>
+<lastmod>2014-07-17T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/posts/managing-accidental-complexity</loc>
+<lastmod>2017-02-06T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/posts/testing-vs-specifications</loc>
+<lastmod>2017-02-09T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/about</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+</urlset>
