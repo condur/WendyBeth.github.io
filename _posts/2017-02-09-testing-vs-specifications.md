@@ -2,7 +2,7 @@
 layout: post
 title: "Testing vs Specifications"
 description: "Testing as an approach to understand the system is not effective, a potential solution is to use specifications."
-tags: [management]
+tags: [management, testing]
 ---
 
 I recently read again the paper “Out of the Tar Pit” by Ben Moseley and Pater Marcks. The paper is about how to manage complexity in large-scale software systems. This is a common issue with building and maintaining not just large software systems, the authors are proposing a Functional Reactive Programming (FRP) approach for hand complexity. I would like to stop in this article on a specific topic that is covered in the paper: __testing - as one approach to understanding the systems__.
